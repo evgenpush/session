@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="exercise.AppTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-06-08T17:14:39" hostname="evgeny-All-Series" time="1.057">
+  <properties/>
+  <testcase name="testEditUser()" classname="exercise.AppTest" time="0.649"/>
+  <testcase name="testCreateUserWithIncorrectData()" classname="exercise.AppTest" time="0.081"/>
+  <testcase name="testFlash()" classname="exercise.AppTest" time="0.019"/>
+  <testcase name="testUser()" classname="exercise.AppTest" time="0.009"/>
+  <testcase name="testUpdateUser()" classname="exercise.AppTest" time="0.075"/>
+  <testcase name="testUpdateUserWithIncorrectData()" classname="exercise.AppTest" time="0.007"/>
+  <testcase name="testUsersAll()" classname="exercise.AppTest" time="0.031"/>
+  <testcase name="testUserIncorrectLogin()" classname="exercise.AppTest" time="0.01"/>
+  <testcase name="testCreateUser()" classname="exercise.AppTest" time="0.036"/>
+  <testcase name="testUserLogout()" classname="exercise.AppTest" time="0.009"/>
+  <testcase name="testUserLogin()" classname="exercise.AppTest" time="0.01"/>
+  <testcase name="testDelete()" classname="exercise.AppTest" time="0.074"/>
+  <testcase name="testNewUser()" classname="exercise.AppTest" time="0.004"/>
+  <testcase name="testDestroyUser()" classname="exercise.AppTest" time="0.015"/>
+  <testcase name="testUserNotFound()" classname="exercise.AppTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[июн. 09, 2022 12:14:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+июн. 09, 2022 12:14:38 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+июн. 09, 2022 12:14:38 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+июн. 09, 2022 12:14:38 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+июн. 09, 2022 12:14:38 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+июн. 09, 2022 12:14:39 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+июн. 09, 2022 12:14:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-44339"]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+июн. 09, 2022 12:14:40 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-44339"]
+июн. 09, 2022 12:14:40 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+июн. 09, 2022 12:14:40 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.base/java.io=null" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+июн. 09, 2022 12:14:40 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=null" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+июн. 09, 2022 12:14:40 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-44339"]
+]]></system-err>
+</testsuite>
